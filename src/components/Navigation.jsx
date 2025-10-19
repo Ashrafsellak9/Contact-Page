@@ -1,7 +1,7 @@
 import logo from '../assets/logo.png'
 const Navigation = () => {
     return (
-       <nav>
+       <nav className='container'>
         <div className='logo'>
             <img src={logo} alt="Do some coding logo"/>
         </div>
