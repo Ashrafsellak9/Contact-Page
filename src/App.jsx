@@ -1,14 +1,17 @@
-import './App.css'
-import ContactHeader from './components/ContactHeader'
-import Navigation from './components/Navigation'
-function App() {
+import "./App.css";
 
+import ContactHeader from "./components/ContactHeader/ContactHeader";
+import Navigation from "./components/Navigation/Navigation";
+
+function App() {
   return (
-    <>
+    <div>
       <Navigation />
-      <ContactHeader />
-    </>
-  )
+      <main className="main_container">
+        <ContactHeader />
+      </main>
+    </div>
+  );
 }
 
-export default App
+export default App;
